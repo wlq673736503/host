@@ -1,33 +1,48 @@
-# Global
+# SwitchHosts!
+
+# Copyright (c) 1993-2009 Microsoft Corp.
+
+#----------------------- 学新通 ----------------------#
+
+# 博客
+47.94.213.194 	blog.iinu.com.cn 
+
+# 本地
+
+#----------------------- 更新相关 - 全局----------------------#
+#禁止 navicat 更新
+127.0.0.1		activate.navicat.com
 
 #----------------------- 个人开发 ----------------------#
 
 #----------------------- 卓特视觉 ----------------------#
-# 公司
-182.92.157.11	pcdev.droitstock.com		#测试环境
-182.92.157.11	zmpcdev.droitstock.com		#新PC
-182.92.157.11	mobiledev.droitstock.com	#移动端
-182.92.157.11	admindev.droitstock.com		#PC后台管理
-182.92.157.11	dbdev.droitstock.com		#PC数据库
-10.2.4.198		p.zt.com					#爬虫
+#测试环境
+182.92.157.11	pcdev.droitstock.com
+#新PC
+182.92.157.11	zmpcdev.droitstock.com
+#移动端
+182.92.157.11	mobiledev.droitstock.com
+#PC后台管理
+182.92.157.11	admindev.droitstock.com
+#PC数据库
+182.92.157.11	dbdev.droitstock.com
+#爬虫
+10.2.4.198		p.zt.com
+#本地
+127.0.0.1		l.localhost.com
+#爬代理IP
+127.0.0.1		reptile.localhost.com
+#卓特-PC
+127.0.0.1		pc.zt.localhost.com
+#卓特-移动
+127.0.0.1		m.pc.zt.localhost.com
+#卓美-PC
+127.0.0.1		zm.zt.localhost.com
+#卓美-移动
+127.0.0.1		m.zm.zt.localhost.com
 
-# 本地
-127.0.0.1		l.localhost.com				#本地
-127.0.0.1		reptile.localhost.com		#爬代理IP
-127.0.0.1		pc.zt.localhost.com			#卓特-PC
-127.0.0.1		m.pc.zt.localhost.com		#卓特-移动
-127.0.0.1		zm.zt.localhost.com			#卓美-PC
-127.0.0.1		m.zm.zt.localhost.com		#卓美-移动
+# 数据库访问
+127.0.0.1		rm-2zeqr2c43s9d2fa0q.mysql.rds.aliyuncs.com
 
 # 共享
 
-#----------------------- 学新通 ----------------------#
-
-# 生产
-#47.94.213.194 	blog.iinu.com.cn			# 博客
-
-# 本地
-
-#----------------------- 更新相关 ----------------------#
-# 全局
-127.0.0.1		activate.navicat.com		#禁止 navicat 更新
