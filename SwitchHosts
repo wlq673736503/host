@@ -225,6 +225,10 @@
 192.168.9.3     lpshop-admin.cnbtb.dev
 # 礼品商城-商户端
 192.168.9.3     lpshop-merchant.cnbtb.dev
+# 默认网站
+192.168.9.3		web-default.cnbtb.dev
+# jcgy
+192.168.9.3 	jcgy.localhost.com
 
 #----------------------- CNBTB End ----------------------#
 
