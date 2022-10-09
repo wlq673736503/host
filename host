@@ -4,8 +4,8 @@
 173.194.71.141 golang.org
 
 #githun raw
-199.232.68.133 raw.githubusercontent.com
-185.199.109.133 raw.githubusercontent.com
+#199.232.68.133 raw.githubusercontent.com
+#185.199.109.133 raw.githubusercontent.com
 
 #----------------------- 域名指向 - 全局 End ----------------------#
 
