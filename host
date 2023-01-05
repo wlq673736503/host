@@ -6,6 +6,7 @@
 #githun raw
 #199.232.68.133 raw.githubusercontent.com
 #185.199.109.133 raw.githubusercontent.com
+#185.199.109.133 raw.githubusercontent.com
 
 #----------------------- 域名指向 - 全局 End ----------------------#
 
@@ -96,6 +97,9 @@
 # 项目管理
 192.168.9.3 pm.tanclay.dev
 
+# 短域名链接
+192.168.9.3 url.tanclay.dev
+
 #----------------------- tanclay End ----------------------#
 
 #===================================================================#
@@ -118,6 +122,8 @@
 192.168.9.3 web-default.personal.dev
 # 默认文件访问地址
 192.168.9.3 static.personal.dev
+# 快酷影视
+192.168.9.3 v.laycg.dev
 
 #----------------------- personal End ----------------------#
 
@@ -241,7 +247,22 @@
 192.168.9.3 jiaotongdui.cnbtb.dev
 # 北京燃气蓝天
 192.168.9.3 bgbluesky.cnbtb.dev
-
+# yataian
+192.168.9.3 yataian.cnbtb.dev
+# sjpc
+192.168.9.3 sjpc.cnbtb.dev
+# 康格-CRM
+192.168.9.3 kg-crm.cnbtb.dev
+# mtwl
+192.168.9.3 mtwl.cnbtb.dev
+# sanwell
+192.168.9.3 sanwell-tech.cnbtb.dev
+# share
+192.168.9.3 share.cnbtb.dev
+# CNBTB-CRM
+192.168.9.3 crm.cnbtb.dev
+# 电器杂志社
+192.168.9.3 cestems.cnbtb.dev
 
 #----------------------- CNBTB End ----------------------#
 
