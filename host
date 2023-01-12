@@ -238,7 +238,7 @@
 # dqzzs
 192.168.9.3 dqzzs.cnbtb.dev
 # uibep
-192.168.9.3 uibep-pc.cnbtb.dev
+192.168.9.3 uibep.cnbtb.dev
 # hypersilicon
 192.168.9.3 hypersilicon.cnbtb.dev
 # 神州牧
@@ -263,6 +263,8 @@
 192.168.9.3 crm.cnbtb.dev
 # 电器杂志社
 192.168.9.3 cestems.cnbtb.dev
+# optima
+192.168.9.3 optima.cnbtb.dev
 
 #----------------------- CNBTB End ----------------------#
 
