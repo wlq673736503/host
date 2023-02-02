@@ -265,6 +265,8 @@
 192.168.9.3 cestems.cnbtb.dev
 # optima
 192.168.9.3 optima.cnbtb.dev
+# 180打卡系统
+192.168.9.3 180.cnbtb.dev
 
 #----------------------- CNBTB End ----------------------#
 
