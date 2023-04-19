@@ -1,14 +1,12 @@
-# SwitchHosts!
-
-# Copyright (c) 1993-2009 Microsoft Corp.
-
 #----------------------- 域名指向 - 全局 Start ----------------------#
 
 #GO 官网
 173.194.71.141 golang.org
 
 #githun raw
-199.232.68.133 raw.githubusercontent.com
+#199.232.68.133 raw.githubusercontent.com
+#185.199.109.133 raw.githubusercontent.com
+#185.199.109.133 raw.githubusercontent.com
 
 #----------------------- 域名指向 - 全局 End ----------------------#
 
@@ -16,7 +14,7 @@
 
 #----------------------- 更新相关 - 全局 Start ----------------------#
 #禁止 navicat 更新
-127.0.0.1		activate.navicat.com
+127.0.0.1  activate.navicat.com
 
 #xshell 禁止更新
 127.0.0.1 activate.netsarang.com
@@ -63,16 +61,16 @@
 
 #===================================================================#
 
-#----------------------- cbpx Start ----------------------#
+#----------------------- stock Start ----------------------#
 
-# cbpx
-192.168.9.3 cbpx-pc.cbpx.dev
-# cbpx 后台管理
-192.168.9.3 cbpx-admin.cbpx.dev
-# cbpx API采集
-192.168.9.3 collection.cbpx.dev
+# stock
+192.168.9.3 stock-pc.stock.dev
+# stock 后台管理
+192.168.9.3 stock-admin.stock.dev
+# stock API采集
+192.168.9.3 stock-collection.stock.dev
 
-#----------------------- cbpx End ----------------------#
+#----------------------- stock End ----------------------#
 
 #===================================================================#
 
@@ -83,6 +81,9 @@
 
 # news-admin
 192.168.9.3 news-admin.tanclay.dev
+
+# news-static
+192.168.9.3 news-static.tanclay.dev
 
 # api-server
 192.168.9.3 api-server.tanclay.dev
@@ -96,41 +97,55 @@
 # 项目管理
 192.168.9.3 pm.tanclay.dev
 
+# 短域名链接
+192.168.9.3 url.tanclay.dev
+
 #----------------------- tanclay End ----------------------#
 
 #===================================================================#
 
 #----------------------- personal Start ----------------------#
 
-# 本地
-
-# 网络开发项目官网
-192.168.9.3		nav.personal.dev
-# 视频
-192.168.9.3		video.personal.dev
-# 小说站点1
-192.168.9.3  	novel.personal.dev
 # H5 设计页
-192.168.9.3     h5.personal.dev
+192.168.9.3 h5.personal.dev
 # 技术博客
-192.168.9.3  	blog.personal.dev
+192.168.9.3 blog.personal.dev
 # 北航登记项目
-192.168.9.3  	beihang.personal.dev
+192.168.9.3 beihang.personal.dev
 # 存放 axure 原型图
-192.168.9.3  	axure.personal.dev
+192.168.9.3 axure.personal.dev
 # 水卫士
-192.168.9.3   sws-pre.localhost.com
+192.168.9.3 sws-pre.personal.dev
+# 默认后台
+192.168.9.3 default-admin.personal.dev
+# 默认开发网站
+192.168.9.3 web-default.personal.dev
+# 默认文件访问地址
+192.168.9.3 static.personal.dev
+# 快酷影视
+192.168.9.3 v.laycg.dev
 
 #----------------------- personal End ----------------------#
+
+#===================================================================#
+
+#----------------------- test Start ----------------------#
+
+# 学新通
+192.144.233.238 news-test.swvq.com
+# 后台管理系统 依据 ok-admin 模板 开发
+192.144.233.238 news-test-admin.swvq.com
+
+#----------------------- test End ----------------------#
 
 #===================================================================#
 
 #----------------------- template Start ----------------------#
 
 # 代码模板
-192.168.9.3   html-tmp.template.dev
+192.168.9.3 html-tmp.template.dev
 # 后台管理系统 依据 ok-admin 模板 开发
-192.168.9.3   admin-tmp.template.dev
+192.168.9.3 admin-tmp.template.dev
 
 #----------------------- template End ----------------------#
 
@@ -139,17 +154,17 @@
 #----------------------- 泓圣航 Start ----------------------#
 
 # 能人微信
-192.168.9.3   nengren.hongwang.dev
+192.168.9.3 nengren.hongwang.dev
 # 汇中财富英文
-192.168.9.3   huizhongen.hongwang.dev
+192.168.9.3 huizhongen.hongwang.dev
 # 汇中财富
-192.168.9.3   huizhong.hongwang.dev
+192.168.9.3 huizhong.hongwang.dev
 # 中国缝纫机协会英文
-192.168.9.3   cismaen.hongwang.dev
+192.168.9.3 cismaen.hongwang.dev
 # 中国缝纫机协会
-192.168.9.3   cisma.hongwang.dev
+192.168.9.3 cisma.hongwang.dev
 # 会议管理系统
-192.168.9.3   huiyi.hongwang.dev
+192.168.9.3 huiyi.hongwang.dev
 
 #----------------------- 泓圣航 End ----------------------#
 
@@ -160,11 +175,11 @@
 #----------------------- 贸促通 Start ----------------------#
 
 # 中国农业大学后勤基建处
-192.168.9.3   hqjjc.tengxuntong.dev
+192.168.9.3 hqjjc.tengxuntong.dev
 # 小程序 -- 贸促通
-192.168.9.3   weworkbeta.tengxuntong.dev
+192.168.9.3 weworkbeta.tengxuntong.dev
 # 小程序 -- 贸促通
-192.168.9.3   weappliteone.tengxuntong.dev
+192.168.9.3 weappliteone.tengxuntong.dev
 
 #----------------------- 贸促通 End ----------------------#
 
@@ -172,30 +187,30 @@
 
 #----------------------- 卓特视觉 Start ----------------------#
 #测试环境
-182.92.157.11	pcdev.droitstock.dev
+182.92.157.11 pcdev.droitstock.dev
 #新PC
-182.92.157.11	zm.droitstock.dev
+182.92.157.11 zm.droitstock.dev
 #移动端
-182.92.157.11	mobile.droitstock.dev
+182.92.157.11 mobile.droitstock.dev
 #PC后台管理
-182.92.157.11	admindev.droitstock.dev
+182.92.157.11 admindev.droitstock.dev
 #PC数据库
-182.92.157.11	dbdev.droitstock.dev
+182.92.157.11 dbdev.droitstock.dev
 #卓特-top
-182.92.157.11   top.droitstock.dev
+182.92.157.11 top.droitstock.dev
 #卓特-rfstock
-182.92.157.11   pcdev.rfstock.dev
+182.92.157.11 pcdev.rfstock.dev
 #卓特-网盘
-103.85.166.166  up.droitstock.dev
+103.85.166.166 up.droitstock.dev
 
 #爬代理IP
-192.168.9.3     reptile.droitstock.dev
+192.168.9.3 reptile.droitstock.dev
 
 #卓特-后台
-192.168.9.3     admin.droitstock.dev
+192.168.9.3 admin.droitstock.dev
 
 # 数据库访问
-192.168.9.3		rm-2zeqr2c43s9d2fa0q.mysql.rds.aliyuncs.com
+192.168.9.3 rm-2zeqr2c43s9d2fa0q.mysql.rds.aliyuncs.com
 
 #----------------------- 卓特视觉 End ----------------------#
 
@@ -204,31 +219,65 @@
 #----------------------- CNBTB Start ----------------------#
 
 # sunus-hk-pc
-192.168.9.3     sunus-hk-pc.cnbtb.dev
+192.168.9.3 sunus-hk-pc.cnbtb.dev
 # sunus-hk-mobile
-192.168.9.3     sunus-hk-m.cnbtb.dev
+192.168.9.3 sunus-hk-m.cnbtb.dev
 # yi8wang
-192.168.9.3     yi8wang.cnbtb.dev
+192.168.9.3 yi8wang.cnbtb.dev
 # 魔唐
-192.168.9.3     motang-dev.cnbtb.dev
+192.168.9.3 motang-dev.cnbtb.dev
 # 后台
-192.168.9.3     admin-dev.cnbtb.dev
+192.168.9.3 admin-dev.cnbtb.dev
 # 数据库访问
-192.168.9.3		db-dev.cnbtb.dev
+192.168.9.3 db-dev.cnbtb.dev
 # 煤矿协会
-192.168.9.3     mktyxh.cnbtb.dev
+192.168.9.3 mktyxh.cnbtb.dev
 # 北京标准协会
-192.168.9.3     bjbzhxh.cnbtb.dev
+192.168.9.3 bjbzhxh.cnbtb.dev
 # 礼品商城-PC
-192.168.9.3     lpshop.cnbtb.dev
+192.168.9.3 lpshop.cnbtb.dev zhili-pc.cnbtb.dev
 # 礼品商城-后台
-192.168.9.3     lpshop-admin.cnbtb.dev
+192.168.9.3 lpshop-admin.cnbtb.dev zhili-admin.cnbtb.dev
 # 礼品商城-商户端
-192.168.9.3     lpshop-merchant.cnbtb.dev
+192.168.9.3 lpshop-merchant.cnbtb.dev zhili-merchant.cnbtb.dev
 # 默认网站
-192.168.9.3		web-default.cnbtb.dev
+192.168.9.3 web-default.cnbtb.dev
 # jcgy
-192.168.9.3 	jcgy.localhost.com
+192.168.9.3 jcgy.cnbtb.dev
+# jingjie
+192.168.9.3 jingjie-web.cnbtb.dev
+# dqzzs
+192.168.9.3 dqzzs.cnbtb.dev
+# uibep
+192.168.9.3 uibep.cnbtb.dev
+# hypersilicon
+192.168.9.3 hypersilicon.cnbtb.dev
+# 神州牧
+192.168.9.3 smzfund.cnbtb.dev
+# 交通队
+192.168.9.3 jiaotongdui.cnbtb.dev
+# 北京燃气蓝天
+192.168.9.3 bgbluesky.cnbtb.dev
+# yataian
+192.168.9.3 yataian.cnbtb.dev
+# sjpc
+192.168.9.3 sjpc.cnbtb.dev
+# 康格-CRM
+192.168.9.3 kg-crm.cnbtb.dev
+# mtwl
+192.168.9.3 mtwl.cnbtb.dev
+# sanwell
+192.168.9.3 sanwell-tech.cnbtb.dev
+# share
+192.168.9.3 share.cnbtb.dev
+# CNBTB-CRM
+192.168.9.3 crm.cnbtb.dev
+# 电器杂志社
+192.168.9.3 cestems.cnbtb.dev
+# optima
+192.168.9.3 optima.cnbtb.dev
+# 180打卡系统
+192.168.9.3 180.cnbtb.dev
 
 #----------------------- CNBTB End ----------------------#
 
